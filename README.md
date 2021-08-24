@@ -1,2 +1,2 @@
 # mario-kaboom.js
-## A game of Mario using JavaScript and Kaboom.js
+## Jogo Mario usando JavaScript e Kaboom.js
