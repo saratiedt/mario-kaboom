@@ -72,8 +72,8 @@ scene("game", ({ level, score }) => {
       "£                                       £",
       "£                                       £",
       "£                                       £",
-      "£        @@@@@@              x x        £",
-      "£                          x x x        £",
+      "£                            x x        £",
+      "£         @@@@@@           x x x        £",
       "£                        x x x x  x   -+£",
       "£               z   z  x x x x x  x   ()£",
       "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
@@ -135,10 +135,10 @@ scene("game", ({ level, score }) => {
         return isBig;
       },
       smallify() {
-        this.scale = vec2(1, 1);
-        currentJumpForce = jumpForce;
+        this.scale = vec2(1);
         timer = 0;
         isBig = false;
+        currentJumpForce = jumpForce;
       },
       biggify(time) {
         this.scale = vec2(2);
